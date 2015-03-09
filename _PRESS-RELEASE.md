@@ -18,27 +18,38 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Escape/Mind Moment/Pause
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  Take a break with [Name] to help clear your mind and be more present.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  [Name] is a web application that provides moments of calm in your busy life. When your mind is racing with thoughts, it's hard to get anything done. You're a rat in a maze. With [Name], tell it how/what you're feeling in the moment and it will respond with a useful reminder and a space to reflect. Calming background noise and short visual will help to set the scene for reflection. It's the perfect way to escape and reset your mind.
+
 
 ## Problem ##
   > Describe the problem your product solves.
+  It is harder than ever to create moments of calm in our modern, always-on lives. We need an easy, purposeful way to break our routine and be present and mindful.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  Enter [Name]. Designed to be a simple way to insert moment of calm, [Name] provides a gentle response to your daily challenges with tailored inspirational statements along with audio-visual queues to help create a space for the mind to release tension and recurring negative thoughts.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  "[Name] is o-mazing. This isn't something just put together in a day - it's a real breakthrough product!"
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  Getting started is easy. Simply visit [Name].com and follow the on-screen prompt. Create an account if you would like to track your progress over time. Otherwise, use [Name] just as you need.
+
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "I'm important and have no time. [Name] let's me achieve nirvhana before my 6AM conference calls" - Important person with no time
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Visit [Name].com today and get started experiencing a whole new world of calm!
