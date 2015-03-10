@@ -174,3 +174,12 @@ background-size: cover;
   background-color: #697681;
 
 }
+.glyphicon {
+  color: #E5C100;
+  font-size: .7em;
+}
+
+.glyphicon-star-empty{
+  color: white;
+  font-size: .7em;
+}
