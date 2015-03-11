@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>PAUSE</title>
+    <title>Mindr</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -37,29 +37,39 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand"><a href='index.html'>PAUSE</a></h3>
+              <h3 class="masthead-brand"><a href='index.html'>Mindr</a></h3>
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="#">Features</a></li>
+                  <li><a href="#featureModal" data-toggle='modal' data-target='#featureModal'>Features</a></li>
                   <li><a href="#">Login</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
-    <video autoplay loop id="bgvid">
-      <source src="clouds.mp4" type='video/mp4'>
-    </video>
-            <h1 class="cover-heading">Welcome to Pause.</h1>
+          <video autoplay muted loop id="bgvid" src="clouds.mp4" type="video/mp4">
+          </video>
+          <audio  id="music" src="temple.mp3" type='audio/wav'></audio>
+
+          
+          <h1 class="cover-heading">Welcome to Mindr</h1>
           <div class="inner-cover">
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead"> Mindr is a simple and elegant way to inject calm into our lives. Share how you're feeling and Mindr will provide affirmation and a chance to reflect and meditate so you can be healthier and happier.
+            </p>
             <p class="lead">
-              <button type='button' href="#" class="btn btn-lg btn-default" data-toggle='modal' data-target='#myModal'>Try it out</button>
+              <button type='button' href="#myModal" class="btn btn-lg btn-default" data-toggle='modal' data-target='#myModal'>Try it out</button>
             </p>
           </div>
 
           <div class="mastfoot">
+            <!-- <span id="previous" class='glyphicon glyphicon-backward'> -->
+            <!-- </span> -->
+            <span  class='glyphicon glyphicon-picture'>
+            </span>
+            <span id = "next" class='glyphicon glyphicon-play'>
+            </span>
+
             <div class="inner">
               <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
             </div>
@@ -108,6 +118,52 @@
       </div>
     </div> 
 
+    <div id='featureModal' class='modal fade'>
+      <div class='modal-dialog'>
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <h2 class='modal-title'>How can Mindr help you?</h2>
+          </div>
+          <div class='modal-body'>
+              <button class="btn btn-primary" data-toggle="collapse" href="#collapseStress" aria-expanded="false" aria-controls="collapseStress">
+              Stress
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseCreativity" aria-expanded="false" aria-controls="collapseCreativity">
+              Creativity
+              </button>
+              <button class="btn btn-primary" data-toggle="collapse" href="#collapseStress" aria-expanded="false" aria-controls="collapseStress">
+              Focus
+              </button>
+              <button class="btn btn-primary" data-toggle="collapse" href="#collapseStress" aria-expanded="false" aria-controls="collapseStress">
+              Anxiety
+              </button>
+              <button class="btn btn-primary" data-toggle="collapse" href="#collapseStress" aria-expanded="false" aria-controls="collapseStress">
+              Relationships
+              </button>
+              <div class="collapse" id="collapseStress">
+              <div class="well">
+              <p>Stress takes a serious toll on the body. It distracts us from getting on and enjoying life. And if you let it get the better of you, it can even make you physically ill.</p>
+              <p>Mindr helps you manage stress by countering the "flight-or-fight" response that results from stress.Taking even a brief moment to slow down, collect your thoughts and reflect can have immense benefits when your mind is racing.
+              </p>
+              </div>
+              </div>
+              <div class="collapse" id="collapseCreativity">
+              <div class="well">
+              <p>Gentrify fap tilde, paleo banjo tousled crucifix semiotics typewriter tofu distillery. Cred scenester church-key, synth pop-up crucifix gluten-free gentrify tousled art party Helvetica flannel. Roof party aesthetic retro distillery whatever. Heirloom hella cronut tofu try-hard. Meggings cray bespoke keffiyeh, kitsch McSweeney's cardigan banh mi you probably haven't heard of them Shoreditch meditation Blue Bottle pop-up meh. Whatever flexitarian normcore selfies. Pop-up pug DIY 90's.
+              </p>
+              </div>
+              </div>
+          </div>
+          <div class='modal-footer'>
+            <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button> 
+          </div>
+        </div>
+      </div>
+    </div> 
+
+
+
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
